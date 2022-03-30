@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.2%;
+}
+#check{
+    border-radius: 10px;
+}
+nav>input{
+    border-radius: 5px;
+    text-align: center;
+}
+/* Calc */
+
+main{
+    background-color: rgba(255, 255, 255, 0.281);
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+article{
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 1px;
+    border-radius: 50px;
+    width: 450px;
+    height: 400px;
+}
+#btnbox{
+    position: relative;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 50%;
+    margin-top: 3%;
+    margin-right: 5%;
+    justify-content: space-evenly;
+}
+#btnbox>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+article button{
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+}
+#nbrbox{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+}
+.op{
+    font-size: 25px;
+}
+#nbrbox>input{
+    height: 30px;
+    width: 55%;
+    border-radius: 50px;
+    text-align: center;
+}
+#nbrbox>#op{
+    width: 10%;
+    height: 15%;
+    font-size: 35px;
+    text-align: center;
+}
+#resbox{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+}
+#resbox>input{
+    height: 30px;
+    width: 45%;
+    text-align: center;
+    border-radius: 50px;
+}

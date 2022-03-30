@@ -1,0 +1,40 @@
+section{
+    border: solid black;
+}
+img{
+    padding-left: 20px;
+}
+br+p{
+    margin-left: 20px;
+}
+h1{
+    display: inline-block;
+    margin-left: 39%;
+    margin-bottom: 100px;
+}
+h1+p{
+    border: solid;
+    display: inline-block;
+    margin-left: 37%;
+    inline-size: 100px;
+}
+#h2{
+    margin-left: 91%;
+}
+dl{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+dd{
+    font-style: italic;
+}
+#h22{
+    margin-left: 87%;
+}
+li{
+    inline-size: 85%;
+    margin-left: 7%;
+}
+li:nth-of-type(2n+1){
+    background-color: rgba(0, 0, 255, 0.541);
+}

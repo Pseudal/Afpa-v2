@@ -1,0 +1,27 @@
+/* p{
+    color:orange;
+} */
+div p{
+    background-color:blue;
+} /*prend tout les p en dessous de div */
+/* div>span{
+    background-color:grey;
+} ne marche pas*/
+
+div>p>span{
+    background-color:green;
+}
+
+h1 + h2{
+    background-color: brown;
+}
+
+h1 ~ h2{
+    color: darkblue;
+}
+section{
+    color: gold;
+}
+em{
+    color: gray;
+}

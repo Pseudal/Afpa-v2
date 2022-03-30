@@ -1,0 +1,11 @@
+div{
+    width: 80%;
+    color: white;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 20% 45% 15%;
+    grid-gap: 50px;
+}
+p{
+    background-color: black;
+}

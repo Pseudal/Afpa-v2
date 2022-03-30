@@ -1,0 +1,10 @@
+var a = 3, b = "3";
+console.log(a == b) diras que c'est true
+mais
+console.log(a === b) diras que c'est false
+colsole.log(a != b) diras bien que c'est diffferent
+
+if else différent
+(amount > 100)
+? console.log("ok c'est supérieur");
+: console.log("ok c'est inférieur");

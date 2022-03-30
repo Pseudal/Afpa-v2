@@ -1,0 +1,31 @@
+tr {
+    text-align: center;
+}
+
+th[colspan="6"] {
+    color: blue;
+    width: 2em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fcb941;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F1654C;
+}
+
+tr:nth-child(even) td:first-child {
+    background-color: #888888;
+    color: #fff;
+}
+
+td:first-child {
+    background-color: #7e3661;
+    color: #fff;
+}
+
+.week {
+    background-color: #8870FF;
+    color: #fff;
+}

@@ -1,0 +1,25 @@
+.para1{
+    text-align: right;
+}
+.para2{
+    text-align: center;
+}
+.para3{
+    text-align: left;
+}
+.para4{
+    text-align: justify;
+}
+.para5{
+    border: 1px solid red;
+    width: 300px;
+    hyphens: auto;
+    line-height: 2em;
+}
+ul li{
+    list-style-image: url(./twitter-logo-1200x1200.jpg);
+
+}
+ol li{
+    list-style-type: upper-roman;
+}

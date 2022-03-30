@@ -1,0 +1,12 @@
+@import url("./style_importe.css");
+
+li{
+    color: forestgreen;
+}
+
+.test{ 
+    color: red; 
+}
+.redim{ 
+    width: calc(100vw/2); 
+}

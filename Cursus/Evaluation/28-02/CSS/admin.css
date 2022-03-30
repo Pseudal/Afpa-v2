@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin-top: 100px;
+    padding: 20px;
+    width: 80%;
+    background-color: grey;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+}
+th:nth-of-type(3){
+    text-align: center;
+}
+td .btn{
+    width: 100%;
+
+}

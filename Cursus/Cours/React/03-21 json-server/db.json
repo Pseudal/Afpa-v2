@@ -1,0 +1,11 @@
+{
+  "products": [
+    {
+      "name": "Tablette",
+      "price": "500",
+      "available": false,
+      "image": "https://iili.io/GMD6qx.jpg",
+      "id": 1
+    }
+  ]
+}

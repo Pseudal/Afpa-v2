@@ -1,0 +1,6 @@
+[
+    {"reference": "001", "nom": "Lait", "prix": 10, "disponible": "Disponible"},
+    {"reference": "002", "nom": "PS5", "prix": 500, "disponible": "Indisponible"},
+    {"reference": "003", "nom": "XBOX", "prix": 499, "disponible": "Disponible"},
+    {"reference": "004", "nom": "Station Spatiale", "prix": "900B", "disponible": "Indisponible"}
+]

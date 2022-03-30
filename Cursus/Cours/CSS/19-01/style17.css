@@ -1,0 +1,13 @@
+p{
+    width: 500px;
+    height: 120px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.para1{
+    box-sizing: content-box;
+}
+.para2{
+    box-sizing: border-box;
+    display: none;
+}

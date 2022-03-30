@@ -1,0 +1,49 @@
+/* li:first-child{
+    color: blue;
+}
+
+li:last-child{
+    color: crimson;
+}
+
+li:nth-child(3){
+    color: gold;
+} */
+
+ /* li:nth-child(odd){
+    color: green;
+}
+
+ li:nth-child(even){ 
+    color: mediumorchid;
+} */
+
+/* li:nth-child(2n+2){
+    background-color: rgb(21, 255, 0);
+} */
+
+li:nth-child(3n+1){
+    background-color: rgb(21, 255, 0);
+}
+
+td:first-of-type{
+    background-color: hsl(240, 64%, 27%, 75%);
+}
+
+td:last-child{
+    background-color: orangered;
+}
+
+tr:nth-of-type(2){
+    background-color: rgb(216, 218, 112);
+}
+span:only-child{
+    color: orchid;
+}
+li:empty{
+    background:grey;
+}
+p:not(em){
+    color:white;
+    background-color:orange;
+}

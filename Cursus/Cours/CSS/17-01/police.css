@@ -1,0 +1,67 @@
+.font{
+    font-style: italic;
+}
+
+.familly{
+    font-family: fantasy;
+}
+
+.test1{
+    font-size: large;
+}
+
+.test2{
+    font-size: smaller;
+}
+
+.fontfam2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.google{
+    font-family: 'Raleway', sans-serif;
+}
+
+.google2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+@font-face{
+    font-family: take;
+    src: url(./font/Takeover3D.ttf);
+}
+
+.local{
+    font-family: take;
+}
+
+.rem{
+    font-size: 2.5em;
+}
+
+.rem2{
+    font-size: 2.5rem;
+}
+
+.gras{
+    font-weight: bolder;
+}
+
+div{
+    font-style: normal;
+}
+div span{
+    font-style: italic;
+}
+div strong{
+    font-style: oblique;
+}
+
+div p{
+    font-stretch: ultra-condensed;
+}
+
+div h2{
+    /* font-variant: small-caps; */
+    font:italic small-caps 200 3em take;
+}

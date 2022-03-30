@@ -1,0 +1,24 @@
+{
+    "colis" : [
+        {
+            "id" : "001",
+            "status" : "En transit"
+        },
+        {
+            "id" : "002",
+            "status" : "En cous d'acheminement"
+        },
+        {
+            "id" : "003",
+            "status" : "Livraison en cours"
+        },
+        {
+            "id" : "004",
+            "status" : "Livré"
+        },
+        {
+            "id" : "005",
+            "status" : "Position inconnue"
+        }
+    ]
+}

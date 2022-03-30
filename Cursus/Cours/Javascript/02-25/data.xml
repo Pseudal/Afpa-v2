@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <magasin>
+        <produit>
+            <reference>001</reference>
+            <nom>PS5</nom>
+            <prix>500</prix>
+            <disponible>Disponible</disponible>
+        </produit>
+        <produit>
+            <reference>002</reference>
+            <nom>XBOX</nom>
+            <prix>499</prix>
+            <disponible>Indisponible</disponible>
+        </produit>
+        <produit>
+            <reference>003</reference>
+            <nom>Voiture</nom>
+            <prix>25000</prix>
+            <disponible>Disponible</disponible>
+        </produit>
+        <produit>
+            <reference>004</reference>
+            <nom>Station Spatiale</nom>
+            <prix>500B</prix>
+            <disponible>Indisponible</disponible>
+        </produit>
+    </magasin>

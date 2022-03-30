@@ -1,0 +1,14 @@
+p::first-line{
+    background-color: rgb(255, 0, 0);
+}
+p::first-letter{
+    color: powderblue;
+}
+h1::after{
+    color: purple;
+    content:" CSS";
+}
+h1::before{
+    color: purple;
+    content:"CSS ";
+}

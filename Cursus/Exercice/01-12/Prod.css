@@ -1,0 +1,30 @@
+.red{
+    color: red;
+}
+.bleu{
+    color: #2f00ff;
+}
+
+.vert{
+    color: rgb(0, 255, 0);
+}
+
+.violet{
+    color: hsl(293, 100%, 50%);
+}
+
+.ciel{
+    color: skyblue;
+}
+
+.gris{
+    color: gray;
+}
+
+.gold{
+    color: gold;
+}
+
+.centre{
+    text-align: center;
+}

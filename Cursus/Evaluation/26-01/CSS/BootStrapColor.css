@@ -1,0 +1,128 @@
+.bgRED {
+  background-color: #ff0000;
+}
+.bgGREEN {
+  background-color: #00FF00;
+}
+.bgBLUE {
+  background-color: #0000FF;
+}
+.bgYELLOW {
+  background-color: #FFFF00;
+}
+.bgMAGENTA {
+  background-color: #FF00FF;
+}
+.bgCYAN {
+  background-color: #00FFFF;
+}
+.bgORANGE {
+  background-color: #FF7F00;
+}
+.bgPINK {
+  background-color: #FF007F;
+}
+.bgVIOLET {
+  background-color: #7F00FF;
+}
+.bgCHARTREUSE {
+  background-color: #7FFF00;
+}
+.bgSPRINGGREEN {
+  background-color: #00FF7F;
+}
+.bgAZURE {
+  background-color: #007FFF;
+}
+.bgWHITE {
+  background-color: #ffffff;
+}
+.bgAZURE {
+  background-color: #000000;
+}
+/* <-- color --> */
+.cRED {
+  color: #ff0000;
+}
+.cGREEN {
+  color: #00FF00;
+}
+.cBLUE {
+  color: #0000FF;
+}
+.cYELLOW {
+  color: #FFFF00;
+}
+.cMAGENTA {
+  color: #FF00FF;
+}
+.cCYAN {
+  color: #00FFFF;
+}
+.cORANGE {
+  color: #FF7F00;
+}
+.cPINK {
+  color: #FF007F;
+}
+.cVIOLET {
+  color: #7F00FF;
+}
+.cCHARTREUSE {
+  color: #7FFF00;
+}
+.cSPRINGGREEN {
+  color: #00FF7F;
+}
+.cAZURE {
+  color: #007FFF;
+}
+.cWHITE {
+  color: #ffffff;
+}
+.cAZURE {
+  color: #000000;
+}
+/* <-- border color --> */
+.bRED {
+  border-color: #ff0000;
+}
+.bGREEN {
+  border-color: #00FF00;
+}
+.bBLUE {
+  border-color: #0000FF;
+}
+.bYELLOW {
+  border-color: #FFFF00;
+}
+.bMAGENTA {
+  border-color: #FF00FF;
+}
+.bCYAN {
+  border-color: #00FFFF;
+}
+.bORANGE {
+  border-color: #FF7F00;
+}
+.bPINK {
+  border-color: #FF007F;
+}
+.bVIOLET {
+  border-color: #7F00FF;
+}
+.bCHARTREUSE {
+  border-color: #7FFF00;
+}
+.bSPRINGGREEN {
+  border-color: #00FF7F;
+}
+.bAZURE {
+  border-color: #007FFF;
+}
+.bWHITE {
+  border-color: #ffffff;
+}
+.bAZURE {
+  border-color: #000000;
+}

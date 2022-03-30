@@ -1,0 +1,22 @@
+FONCTIONS_UTILISEES
+VARIABLES
+  nbre EST_DU_TYPE NOMBRE
+DEBUT_ALGORITHME
+  AFFICHER* "Entrer un nombre"
+  LIRE nbre
+  SI (nbre == 0) ALORS
+    DEBUT_SI
+    AFFICHER* "Votre nombre est nul."
+    FIN_SI
+    SINON
+      DEBUT_SINON
+      SI (nbre > 0) ALORS
+        DEBUT_SI
+        AFFICHER* "Votre est positif"
+        FIN_SI
+        SINON
+          DEBUT_SINON
+          AFFICHER "votre nombre est négatif"
+          FIN_SINON
+      FIN_SINON
+FIN_ALGORITHME

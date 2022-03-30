@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "nom": "Samsung3",
+      "prix": 600,
+      "image": "https://picsum.photos/53",
+      "avaible": false,
+      "id": 4
+    },
+    {
+      "nom": "Samsung3",
+      "prix": 400,
+      "avaible": false,
+      "image": "https://picsum.photos/48",
+      "id": 6
+    }
+  ]
+}

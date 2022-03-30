@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "nom": "Iphone",
+      "prix": 900,
+      "avaible": true,
+      "image": "https://picsum.photos/50",
+      "id": 1
+    },
+    {
+      "nom": "Iphone2",
+      "prix": 800,
+      "avaible": true,
+      "image": "https://picsum.photos/51",
+      "id": 2
+    },
+    {
+      "nom": "Iphone3",
+      "prix": 700,
+      "avaible": false,
+      "image": "https://picsum.photos/52",
+      "id": 3
+    },
+    {
+      "nom": "Samsung",
+      "prix": 600,
+      "avaible": false,
+      "image": "https://picsum.photos/53",
+      "id": 4
+    },
+    {
+      "nom": "Samsung2",
+      "prix": 500,
+      "avaible": true,
+      "image": "https://picsum.photos/49",
+      "id": 5
+    },
+    {
+      "nom": "Samsung3",
+      "prix": 400,
+      "avaible": false,
+      "image": "https://picsum.photos/48",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+img{
+    float: left;
+}
+h2{
+    clear:both;
+}
+p{
+    width: 200px;
+    height: 100px;
+    border: solid;
+    margin: 10px auto;
+}
+div p:first-of-type{
+    overflow: visible;
+    color: red;
+}
+div p:nth-of-type(2){
+    overflow: hidden;
+    color: blue;
+    visibility: hidden;
+}
+
+div p:nth-of-type(3){
+    overflow: scroll;
+    color:green;
+}
+div p:last-of-type{
+    color:rgba(130, 37, 0, 0.918);
+    overflow: auto;
+}

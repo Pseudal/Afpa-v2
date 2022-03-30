@@ -1,0 +1,26 @@
+<Library>
+    <produit>
+        <id>1</id>
+        <nom>article1</nom>
+        <prix>10</prix>
+        <disponible>oui</disponible>
+    </produit>
+    <produit>
+        <id>2</id>
+        <nom>article2</nom>
+        <prix>20</prix>
+        <disponible>non</disponible>
+    </produit>
+    <produit>
+        <id>3</id>
+        <nom>article3</nom>
+        <prix>30</prix>
+        <disponible>bientôt</disponible>
+    </produit>
+    <produit>
+        <id>4</id>
+        <nom>article4</nom>
+        <prix>40</prix>
+        <disponible>jamais</disponible>
+    </produit>
+</Library>

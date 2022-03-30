@@ -1,0 +1,60 @@
+p{
+    border:1px solid black;
+    padding: 18px;
+    width: 50px;
+    height: 50px;
+    box-sizing:border-box;
+    color: white;
+}
+
+.para1{
+    background-color: brown;
+    position: static;
+    
+}
+.para2{
+    background-color: rgb(61, 42, 165);
+    position: relative;
+    /* top:100px;
+    left: 10px; */
+}
+
+.para3{
+    background-color: rgb(67, 165, 42);
+    z-index: 3;
+    position: fixed;
+    right: 0;
+    top:50px;
+}
+
+.para4{
+    background-color: rgba(196, 197, 214, 0.965);
+    position: absolute;
+  
+}
+
+.para5{
+    background-color: rgb(16, 8, 27);
+   
+}
+.sticky{
+    width: 500px;
+    height: 50px;
+    background-color: coral;
+    position: sticky;
+    top:0;
+}
+.contenant{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+}
+.contenu{
+    width: 100px;
+    height: 80px;
+    background-color: turquoise;
+    position:absolute;
+    top:10px;
+    left: 50px;
+}

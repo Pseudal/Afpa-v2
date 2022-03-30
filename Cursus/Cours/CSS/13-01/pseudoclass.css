@@ -1,0 +1,20 @@
+h2:target{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+span:lang(fr){
+    background-color: aqua;
+}
+
+span:lang(en){
+    background-color: chartreuse;
+}
+
+span:lang(de){
+    background-color: crimson;
+}
+
+input:disabled{
+    background-color: black;
+}

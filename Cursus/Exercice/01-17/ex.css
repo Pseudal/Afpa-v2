@@ -1,0 +1,24 @@
+body{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1em;
+    font-weight: 1.5;
+}
+.titre{
+    font-family: Helvetica, Arial, serif;
+    font-size: 1.5em;
+    color: #454545;
+    font-weight: bold;
+}
+.p{
+    color: #7a7a7a;
+}
+.block{
+    font-style: italic;
+    background-color: #e7f2fa;
+    color: #444;
+    border-left: solid 5px #8870FF;
+}
+blockquote #droite{
+    white-space: pre-line;
+
+}   

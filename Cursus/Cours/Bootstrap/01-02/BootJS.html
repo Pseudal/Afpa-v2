@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="row col-6 offset-3">
+        <h1>Composants</h1>
+        <section class="accordion">
+            <article class="accordion-item">
+                <h2 class="accordion-header" id="post1">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#article1">Article1</button> 
+                </h2>
+                <p id="article1" class="collapse show p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ea eligendi doloremque tempore optio rerum perspiciatis. Molestias atque nulla quas, vero vel commodi magnam saepe mollitia deserunt et? Vel, nostrum.</p>
+            </article>
+            <article class="accordion-item">
+                <h2 class="accordion-header">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#article2"> Article2</button>
+                </h2>
+                <p id="article2" class="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ea eligendi doloremque tempore optio rerum perspiciatis. Molestias atque nulla quas, vero vel commodi magnam saepe mollitia deserunt et? Vel, nostrum.</p>
+            </article>
+            <article class="accordion-item">
+                <h2 class="accordion-header">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#article3"> Article3
+                    </button>
+                </h2>
+                <p id="article3" class="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ea eligendi doloremque tempore optio rerum perspiciatis. Molestias atque nulla quas, vero vel commodi magnam saepe mollitia deserunt et? Vel, nostrum.</p>
+            </article>
+        </section>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+
+            <!-- <div class="container-fluid"> -->
+              <!-- Links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            <!-- </div> -->
+          
+          </nav>  
+        <h1 class="bg-secondary text-white text-center">Admistration</h1>
+        <div class="text-end m-2">
+            <a href="" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#add"><i class="fas fa-plus"> Ajouter</i></a>
+        </div>
+        <!--Modal-->
+        <div class="modal fade" id="add">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Formulaire d'ajout</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <div class="mb-2">
+                                <label for="nom" class="form-label">Nom</label>
+                                <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom">
+                            </div>
+                            <div class="mb-2">
+                                <label for="prenom" class="form-label">Prénom</label>
+                                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prenom">
+                            </div>
+                            <div class="mb-2">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Votre email">
+                            </div>
+                            <div class="mb-2">
+                                <label for="adresse" class="form-label">Adresse</label>
+                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Votre adresse">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-outline-primary col-12"data-bs-dismiss="modal">Soumettre</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped table-hover table-bordered text-center">
+            <thead class="table-success">
+                <tr>
+                    <th>Id</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Email</th>
+                    <th>Adresse</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Dupond</td>
+                    <td>Thomas</td>
+                    <td>thomas@gmail.com</td>
+                    <td>Paris</td>
+                    <td>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#edit">
+                            <i class="fas fa-edit"> Editer</i>
+                        </a>
+                        <a href="" class="btn btn-danger">
+                            <i class="fas fa-trash"> Supprimer</i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Ben</td>
+                    <td>Cathy</td>
+                    <td>ben@yahoo.fr</td>
+                    <td>Créteil</td>
+                    <td>
+                        <a href="" class="btn btn-success">
+                            <i class="fas fa-edit"> Editer</i>
+                        </a>
+                        <a href="" class="btn btn-danger">
+                            <i class="fas fa-trash"> Supprimer</i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Don</td>
+                    <td>Joe</td>
+                    <td>joe@yahoo.fr</td>
+                    <td>Melun</td>
+                    <td>
+                        <a href="" class="btn btn-success">
+                            <i class="fas fa-edit"> Editer</i>
+                        </a>
+                        <a href="" class="btn btn-danger">
+                            <i class="fas fa-trash"> Supprimer</i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+         <!--Modal-->
+         <div class="modal fade" id="edit">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Formulaire d'édition</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <div class="mb-2">
+                                <label for="nom" class="form-label">Nom</label>
+                                <input type="text" class="form-control" id="nom" name="nom" value="Dupond">
+                            </div>
+                            <div class="mb-2">
+                                <label for="prenom" class="form-label">Prénom</label>
+                                <input type="text" class="form-control" id="prenom" name="prenom" value="Thomas">
+                            </div>
+                            <div class="mb-2">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" value="thomas@gmail.com">
+                            </div>
+                            <div class="mb-2">
+                                <label for="adresse" class="form-label">Adresse</label>
+                                <input type="text" class="form-control" id="adresse" name="adresse" value="Pariss">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-outline-warning col-12"data-bs-dismiss="modal">Modifier</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="card row col-4">
+            <div class="card-header">
+                <img src="https://picsum.photos/240/100" alt="" class="img-responsive" >
+            </div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum architecto delectus ut? Blanditiis est, aliquam ducimus eaque perferendis unde perspiciatis asperiores minus nobis consequuntur, porro eligendi, adipisci delectus nemo? Quae!</p>
+            </div>
+            <div class="card-footer">
+                <a href="" class="btn text-info">Lire plus!</a>
+            </div>
+        </div>
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="https://picsum.photos/200" alt=""  class="d-block w-100"></div>
+                <div class="carousel-item"><img src="https://picsum.photos/200" alt="" class="d-block w-100 "></div>
+                <div class="carousel-item"><img src="https://picsum.photos/200" alt="" class="d-block w-100 "></div>
+            </div>
+         </div>  
+        </main>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>

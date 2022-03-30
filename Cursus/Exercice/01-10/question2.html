@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+    
+        <fieldset>
+        
+        <legend>Info</legend>
+        <input type="text" name="nom" id="nom">
+        <label for="nom">Votre nom</label><br>
+
+        <input type="text" name="prenom" id="prenom">
+        <label for="prenom">Votre prenom</label><br>
+
+        <input type="email" name="mail" id="mail">
+        <label for="mail">Votre mail</label><br>
+
+    </fieldset>
+    <fieldset>
+
+        <legend>sexe</legend>
+        
+        <input type="radio" name="sexe" id="choix">
+        <label for="sexe">homme</label><br>
+
+        <input type="radio" name="sexe" id="choix">
+        <label for="sexe">femme</label><br>
+
+    </fieldset>
+    <fieldset>
+
+        <legend>montre ta tête</legend>
+        
+        <label for="foto">foto ici</label>
+        <input type="file" name="foto" id="foto" accept="image/png">
+
+    </fieldset>
+    <fieldset>
+
+        <legend>pays</legend>
+
+        <select name="pays" id="pays">
+            <option value="pays" hidden> choisis</option>
+            <option value="pays">fr</option>
+            <option value="pays">en</option>
+            <option value="pays">esp</option>
+            <option value="pays">ita</option>
+            <option value="pays">de</option>
+        </select>
+
+    </fieldset>
+    <fieldset>
+
+        <legend>langue</legend>
+
+        <select name="lang" id="lang" multiple>
+            <option value="Fr">fr</option>
+            <option value="En">en</option>
+            <option value="Esp">esp</option>
+            <option value="Ita">ita</option>
+            <option value="De">de</option>
+        </select>
+
+    </fieldset>
+    <fieldset>
+        
+        <legend>domaine</legend>
+
+        <input type="checkbox" name="m1" id="metier1">
+        <label for="m1">metier1</label><br>
+        <input type="checkbox" name="m2" id="metier2">
+        <label for="m3">metier2</label><br>
+        <input type="checkbox" name="m3" id="metier3">
+        <label for="m3">metier3</label><br>
+
+    </fieldset>
+    <input type="reset" value="annuler">
+    <input type="submit" value="Valider">
+    </form>
+</body>
+</html>

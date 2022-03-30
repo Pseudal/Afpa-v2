@@ -1,0 +1,59 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid;
+}
+th{
+    color: white;
+    background-color: blue;
+}
+th:first-child{
+    background-color: black;
+}
+label, input, button{
+    display: inline-block;
+}
+label{
+    width: 20%;
+}
+input{
+    width: 60%;
+}
+div{
+    line-height: 2em;
+    width: 100%;
+}
+div button{
+    color: white;
+    text-align: center;
+    width: 41%;
+}
+
+div button:first-child{
+    background-color: red;
+}
+div button:last-child{
+    background-color: blue;
+}
+input:focus{
+    outline: 1px solid green;
+}
+p:first-of-type{
+    /* border: 10px groove fuchsia; */
+    border-top: 1px solid blue;
+    border-right: 1px solid brown;
+    border-bottom: 1px solid aqua;
+    border-left: 1px solid yellow;
+}
+p:last-of-type{
+    border:5px solid black;
+    /* (border-top-left border-bottom-right) et (border-top-right border-bottom-left)*/
+    border-radius: 10px 20px 30px 40px;
+}
+img{
+    border: 5px solid black;
+    border-radius: 500px;
+}

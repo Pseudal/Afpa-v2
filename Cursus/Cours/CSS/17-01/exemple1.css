@@ -1,0 +1,19 @@
+p{
+    color: blue;
+}
+
+em{
+    color: yellow;
+}
+
+.test{
+    color: grey;
+}
+
+span.test{
+    color: hotpink;
+}
+
+p.test em.imp{
+    color: white;
+}

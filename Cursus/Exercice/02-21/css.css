@@ -1,0 +1,84 @@
+main{
+    background-color: rgba(255, 255, 255, 0.281);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+article{
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 1px;
+    border-radius: 50px;
+    width: 450px;
+}
+.A1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+    height: 500px;
+}
+.inp{
+    width: 300px;  
+    font-size: 35px;
+    text-align: center;
+    border-radius: 25px;
+}
+button{
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black
+}
+#div2{
+    display: flex;
+}
+#s1{
+    width: 50%;
+    height: 10%;
+}
+#s2{
+    width: 50%;
+}
+#s1 p{
+    border-right: solid black 1px; 
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list>p{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+#coupe{
+    border-right: solid black 1px;
+}
+#A2 input{
+    text-align: center;
+}
+.inp2{
+    width: 30%;
+    border-radius: 20px;
+}
+.prix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+h2{
+    margin: 8px;
+}

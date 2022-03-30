@@ -1,0 +1,96 @@
+main {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+header {
+    background-color: #008000;
+    height: 130px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header {
+    position: relative;
+    margin-right: 30vh;
+}
+nav {
+    width: 60%;
+    height: 60px;
+}
+
+li {
+    border: 2px solid black;
+    display: inline;
+    list-style: none;
+}
+
+a {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.b2 {
+    border-bottom: 2px;
+    font-weight: bolder;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    height: 660px;
+
+}
+
+article {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-grow: 8;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+
+}
+
+.flexbox {
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+img {
+    float: right;
+    margin-right: 100px;
+}
+
+aside {
+    float: right;
+    border-left: 1px solid black;
+    flex-grow: 2;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+.connect {
+    background-color: yellow;
+    color: red;
+    border: 2px solid black;
+    position: relative;
+    bottom: 100px;
+    left: 400px;
+}

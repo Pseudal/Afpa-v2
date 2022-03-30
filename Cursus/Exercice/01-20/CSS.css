@@ -1,0 +1,50 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 250px;
+    width: 1000px;
+}
+h1{
+    display: flex;
+    display: inline;
+    color: white;
+}
+@keyframes pap{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    20% {
+        top: -30px;
+        left: 0px;
+    }
+    40% {
+        top: -30px;
+        left: 135px;
+    }
+    60% {
+        top: 30px;
+        left: 135px;
+    }
+    80% {
+        top: 30px;
+        left: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+img{
+    position: relative ;
+    animation-name: pap;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}

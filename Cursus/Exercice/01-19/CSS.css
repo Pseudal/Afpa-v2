@@ -1,0 +1,75 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+header {
+    background-color: #008000;
+    height: 130px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.titre{
+    margin-left: 120px;
+}
+.connect {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    border: black solid;
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.menu{
+}
+
+li{
+
+    display: inline;
+    align-content: space-between;
+    align-content: center;
+}
+a:hover{
+    font-size: 20px;
+}
+a{
+    transition: 1s;
+    text-decoration: none;
+}
+.b1, .b3, .b4, .b5, .b6{    
+    border: black solid 2px;     
+}
+.b2{ 
+    border: black solid 2px;    
+    border-bottom: hidden;  
+}
+article{
+    margin-top: -30px;
+    display: flexbox;
+    float: left;
+    width: 77%;
+}
+article>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    float: right;
+    margin-right: 10;
+    padding-left: 6px;
+    width: 20%;
+    border-left: black solid;
+}
+div>div>p{
+    width: 300px;
+}
+.d1, .d2, .d3, .d4{
+    align-content: center;
+}

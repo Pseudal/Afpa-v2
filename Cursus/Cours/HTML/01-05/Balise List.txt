@@ -1,0 +1,16 @@
+1 :
+- meta
+- body
+- link
+- head
+- p
+- title
+- docktype
+- script
+
+2 :
+- hX
+- span
+- hr
+- li (ol/ul)
+- dl (dd/dt)
