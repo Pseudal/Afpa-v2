@@ -21,7 +21,7 @@ const Produits = () => {
   useEffect(() => {
     ProductServices.getProducts2()
       .then((res) => res.data)
-      .then((data) => setProducts(data.products))
+      .then((data) => setProducts(data))
       .catch((err) => console.error(err));
   }, []);
   console.log(products);

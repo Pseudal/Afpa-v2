@@ -29,9 +29,9 @@ const DashProduct = () => {
   const [tableData, setTableData] = useState([]);
 
   useEffect(() => {
-    fetch("https://pseudalsandbox.xyz/db_products.json")
+    fetch("http://localhost:3002/products")
       .then((data) => data.json())
-      .then((data) => setTableData(data.products));
+      .then((data) => setTableData(data));
   }, []);
 
   console.log(mod);

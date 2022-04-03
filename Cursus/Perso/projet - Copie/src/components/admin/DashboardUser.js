@@ -14,14 +14,12 @@ import DashMenu from "./DashMenu";
 
 const columns = [
   { field: "id", headerName: "ID" },
-  { field: "nom", headerName: "Produit", width: 225 },
-  { field: "prix", headerName: "Prix", width: 225 },
-  { field: "avaible", headerName: "Disponibilité", width: 225 },
-  { field: "image", headerName: "Image", width: 300 },
+  { field: "nom", headerName: "Nom", width: 225 },
+  { field: "admin", headerName: "Admin", width: 225 },
+  { field: "email", headerName: "Email", width: 450 },
 ];
 
-const DashProduct = () => {
-  const navigate = useNavigate();
+const DashUser = () => {
   const [displaye, setDisplaye] = useState("none");
   const [mod, setMod] = useState();
   const [selected, setSelected] = useState();
@@ -29,18 +27,19 @@ const DashProduct = () => {
   const [tableData, setTableData] = useState([]);
 
   useEffect(() => {
-    fetch("https://pseudalsandbox.xyz/db_products.json")
+    fetch("http://localhost:3000/users")
       .then((data) => data.json())
-      .then((data) => setTableData(data.products));
+      .then((data) => setTableData(data));
   }, []);
 
   console.log(mod);
 
   return (
     <>
-      <Typography textAlign="center" sx={{m: 5}} variant="h3" color="white" xs={12}>
-          Administration des produits
+    <Typography textAlign="center" sx={{m: 5}} variant="h3" color="white" xs={12}>
+          Administration des utilisateurs
       </Typography>
+
       <Container
         sx={{
           mt: 5,
@@ -56,7 +55,7 @@ const DashProduct = () => {
             display: "flex",
           }}
         >
-          <Link to={'/AddProduct'}><Button variant="contained">Ajouter</Button></Link>
+          <Link to={'/New%20User'}><Button variant="contained">Ajouter</Button></Link>
         </Box>
         <Box
           sx={{
@@ -65,14 +64,13 @@ const DashProduct = () => {
             justifyContent: "end",
           }}
         >
-          <Link  style={{ textDecoration: 'none' }} state={{ Produit: mod }} to={'/ModProduct'}><Button variant="contained" sx={{ display: displaye, mr:1 }} color="warning">Modifier</Button></Link>
           <Button onClick={() => {
             if (window.confirm("êtes vous sûr ?")) {
-              ProductServices.delProduct(selected[0])
+              ProductServices.delUser(selected[0])
             }
             window.location.reload(); 
             }} variant="contained" sx={{ display: displaye }} color="error">
-            Supprimer
+            Bannir
           </Button>
         </Box>
       </Container>
@@ -104,4 +102,4 @@ const DashProduct = () => {
     </>
   );
 };
-export default DashProduct;
+export default DashUser;

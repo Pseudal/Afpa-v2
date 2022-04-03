@@ -48,13 +48,14 @@ const Home = () => {
   useEffect(() => {
     ProductServices.getArticle()
       .then((res) => res.data)
-      .then((data) => setProducts(data.articles))
+      .then((data) => setProducts(data))
       .catch((err) => console.error(err));
   }, []);
   console.log(products);
 
   return (
     <>
+      <p id="test"></p>
       <Container
         sx={{
           display: "flex",
@@ -77,11 +78,12 @@ const Home = () => {
               sx={{ mb: 10, display: "flex", justifyContent: "center" }}
               xs={4}
             >
-              <Card sx={{ maxWidth: 500 }}>
-                <CardHeader
+              <Card sx={{ maxWidth: 500, bgcolor:'#292929', color:"white" }}>
+                <CardHeader 
+                  sx={{color:"141414"}}
                   avatar={<Avatar src={article.avatar} />}
                   title={article.nom}
-                  subheader={article.paruption}
+                  subheader={<Typography variant="caption" color={"white"}>{article.paruption}</Typography>}
                 />
                 <CardMedia
                   component="img"
@@ -90,7 +92,7 @@ const Home = () => {
                   alt="Paella dish"
                 />
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="white">
                     {article.description}
                   </Typography>
                 </CardContent>
@@ -111,7 +113,7 @@ const Home = () => {
                     }}
                   >
                     {token || Admin ? (
-                      <Link state={{ Article: article }} to={"/more"}>
+                      <Link style={{ textDecoration: 'none' }} state={{ Article: article }} to={"/more"}>
                         <Button sx={{ mr: 0 }} variant="contained">
                           Continuer
                         </Button>

@@ -23,9 +23,9 @@ const Dash = () => {
   const [tabledata, setTabledata] = useState([]);
 
   useEffect(() => {
-    fetch("https://pseudalsandbox.xyz/db_article.json")
+    fetch("http://localhost:3002/articles")
       .then((data) => data.json())
-      .then((data) => setTabledata(data.articles));
+      .then((data) => setTabledata(data));
   }, []);
 
   function del(index) {

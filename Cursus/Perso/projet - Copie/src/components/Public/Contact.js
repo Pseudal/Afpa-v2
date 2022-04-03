@@ -18,12 +18,12 @@ import Contactinfo from "./Contactinfo";
 import DoneIcon from '@mui/icons-material/Done';
 
 const validationSchema = Yup.object().shape({
-  // nom: Yup.string().required("Ajoutez un nom svp").max(25),
-  // email: Yup.string()
-  //   .required("Ajoutez votre email svp")
-  //   .email("Entrez un mail valide"),
-  // message: Yup.string().required("Ajoutez votre message svp").min(50).max(500),
-  // description: Yup.string().required("Ajoutez votre message svp").max(50),
+  nom: Yup.string().required("Ajoutez un nom svp").max(25),
+  email: Yup.string()
+    .required("Ajoutez votre email svp")
+    .email("Entrez un mail valide"),
+  message: Yup.string().required("Ajoutez votre message svp").min(50).max(500),
+  description: Yup.string().required("Ajoutez votre message svp").max(50),
 });
 
 const Contact = () => {

@@ -1,9 +1,9 @@
 import axios from "axios"
 
-const API_URL = "https://pseudalsandbox.xyz/db_product.json"
-const API_URL_ARTICLE = "https://pseudalsandbox.xyz/db_article.json"
-const API_URL_MESSAGE = "https://pseudalsandbox.xyz/db_message.json"
-const API_URL_USER = "https://pseudalsandbox.xyz/auth.json"
+const API_URL = "http://localhost:3002/products"
+const API_URL_ARTICLE = "http://localhost:3002/articles"
+const API_URL_MESSAGE = "http://localhost:3002/contact"
+const API_URL_USER = "http://localhost:3000/users"
 
 const getProducts = () => {
     return fetch(API_URL)
@@ -28,6 +28,10 @@ const addArticle = product => {
 
 const addMessage = product => {
     return axios.post(API_URL_MESSAGE, product)
+}
+const addComment = (product, index) => {
+    const API_URL_COMMENT = `http://localhost:3002/articles/${index}/comment`
+    return axios.post(API_URL_COMMENT, product)
 }
 
 const delProduct = index => {
@@ -67,6 +71,7 @@ export default{
     delArticle,
     addArticle,
     addMessage,
+    addComment,
     getMsg,
     delUser,
     delMsg

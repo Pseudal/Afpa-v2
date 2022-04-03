@@ -27,9 +27,9 @@ const DashUser = () => {
   const [tableData, setTableData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/users")
+    fetch("https://pseudalsandbox.xyz/auth.json")
       .then((data) => data.json())
-      .then((data) => setTableData(data));
+      .then((data) => setTableData(data.users));
   }, []);
 
   console.log(mod);

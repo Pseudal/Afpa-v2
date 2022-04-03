@@ -1,0 +1,68 @@
+{
+  "articles": [
+    {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod quidem dicta consequuntur aut ullam, quibusdam repellat debitis architecto sapiente.",
+      "nom": "blabla",
+      "avatar": "https://www.thispersondoesnotexist.com/image",
+      "img": "https://picsum.photos/1000",
+      "paruption": "29  lorem  2001",
+      "id": 1
+    },
+    {
+      "description": "Voluptates exercitationem quam suscipit quidem numquam ad fugiat! Consequuntur, facilis. Optio quo nam praesentium accusamus cum saepe unde, molestiae at.",
+      "nom": "blibli",
+      "avatar": "https://www.thiswaifudoesnotexist.net/example-28600.jpg",
+      "img": "https://picsum.photos/1001",
+      "paruption": "31  lorem  2011",
+      "id": 2
+    },
+    {
+      "nom": "bloublou",
+      "avatar": "https://i.pravatar.cc/1920",
+      "paruption": "12  lorem  91",
+      "description": "Possimus a atque, similique doloribus minima cumque saepe et eaque maiores nesciunt neque iure veniam quae! A, facere obcaecati. Optio?",
+      "img": "https://picsum.photos/1002",
+      "id": 3
+    },
+    {
+      "description": "Voluptates exercitationem quam suscipit quidem numquam ad fugiat! Consequuntur, facilis. Optio quo nam praesentium accusamus cum saepe unde, molestiae at.",
+      "nom": "Lorema",
+      "avatar": "https://www.thiswaifudoesnotexist.net/example-2750.jpg",
+      "img": "https://picsum.photos/1003",
+      "paruption": "15 lorem 1854",
+      "id": 4
+    },
+    {
+      "nom": "Merol",
+      "avatar": "https://i.pravatar.cc/1921",
+      "paruption": "29 lorem 2022",
+      "description": "Possimus a atque, similique doloribus minima cumque saepe et eaque maiores nesciunt neque iure veniam quae! A, facere obcaecati. Optio?",
+      "img": "https://picsum.photos/1004",
+      "id": 5
+    },
+    {
+      "nom": "bloublou",
+      "avatar": "https://i.pravatar.cc/1925",
+      "paruption": "15  lorem  -1050",
+      "description": "Possimus a atque, similique doloribus minima cumque saepe et eaque maiores nesciunt neque iure veniam quae! A, facere obcaecati. Optio?",
+      "img": "https://picsum.photos/1005",
+      "id": 6
+    },
+    {
+      "description": "Voluptates exercitationem quam suscipit quidem numquam ad fugiat! Consequuntur, facilis. Optio quo nam praesentium accusamus cum saepe unde, molestiae at.",
+      "nom": "Lorema",
+      "avatar": "https://www.thiswaifudoesnotexist.net/example-2787.jpg",
+      "img": "https://picsum.photos/1006",
+      "paruption": "31 lorem 1998",
+      "id": 7
+    },
+    {
+      "nom": "Merol",
+      "avatar": "https://i.pravatar.cc/1919",
+      "paruption": "27 lorem 2017",
+      "description": "Possimus a atque, similique doloribus minima cumque saepe et eaque maiores nesciunt neque iure veniam quae! A, facere obcaecati. Optio?",
+      "img": "https://picsum.photos/1007",
+      "id": 8
+    }
+  ]
+}

@@ -46,7 +46,7 @@ const DashMessage = () => {
   useEffect(() => {
     ProductServices.getMsg()
       .then((res) => res.data)
-      .then((data) => setProducts(data.contact))
+      .then((data) => setProducts(data))
       .catch((err) => console.error(err));
   }, []);
   console.log(products);

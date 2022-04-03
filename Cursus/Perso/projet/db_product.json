@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "nom": "IphoneXS",
+      "prix": 800,
+      "image": "https://img.bfmtv.com/c/0/708/aa1/5240772c9c9044c5932d6647bce1c.jpg",
+      "avaible": true,
+      "id": 1
+    },
+    {
+      "nom": "Samsung S20",
+      "prix": 700,
+      "image": "https://www.avcesar.com/source/actualites/00/00/75/41/smartphones-samsung-galaxy-s20-ecran-120-hz-hdr10-5g-et-captation-video-ultra-hd-8k_02543118.jpg",
+      "avaible": true,
+      "id": 2
+    },
+    {
+      "nom": "PS5",
+      "prix": "∞",
+      "avaible": false,
+      "image": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2022/03/15/node_1153009/55133483/public/2022/03/15/B9730275368Z.1_20220315135531_000%2BG2LK3MJRC.2-0.jpg?itok=RC1EFqwH1647428257",
+      "id": 3
+    },
+    {
+      "nom": "PS4",
+      "prix": 400,
+      "avaible": true,
+      "image": "https://dyw7ncnq1en5l.cloudfront.net/optim/produits/16/34465/sony-playstation-4-slim_e4f20c8dbe94f8b2__1200_630__overflow.jpg",
+      "id": 4
+    },
+    {
+      "nom": "Carte Graphique",
+      "prix": 9999,
+      "image": "https://images.itnewsinfo.com/lmi/articles/grande/000000074296.jpg",
+      "avaible": false,
+      "id": 5
+    },
+    {
+      "nom": "Destroyer Stellaire",
+      "prix": "70000000",
+      "image": "https://www.starwars-universe.com/images/encyclopedie/vaisseaux_vehicules/images_du_texte/cr_venator/venator1.jpg",
+      "avaible": true,
+      "id": 6
+    },
+    {
+      "nom": "Peugeot 106",
+      "prix": 4589,
+      "avaible": true,
+      "image": "https://www.retropassionautomobiles.fr/wp-content/uploads/2021/06/peugeot-106-rallye-7.jpg",
+      "id": 7
+    },
+    {
+      "nom": "T-shirt",
+      "prix": 25,
+      "avaible": false,
+      "image": "https://images.unsplash.com/photo-1521498542256-5aeb47ba2b36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dCUyMHNoaXJ0JTIwcHJpbnRpbmd8ZW58MHx8MHx8&w=1000&q=80",
+      "id": 8
+    },
+    {
+      "nom": "Battlefield 2042",
+      "prix": 5,
+      "image": "https://www.journaldugeek.com/content/uploads/2021/06/bf-2042-section-bg-homepage-hero-keyart-xl-adapt--320w.jpg",
+      "avaible": true,
+      "id": 9
+    },
+    {
+      "nom": "Star Citizen",
+      "prix": "400M",
+      "avaible": true,
+      "image": "https://www.pdvg.it/wp-content/uploads/2021/11/Star_Citizen_Copertina.jpg",
+      "id": 10
+    },
+    {
+      "nom": "Airpods",
+      "prix": 179,
+      "avaible": false,
+      "image": "https://media.ldlc.com/Apple/AirPods/imgAirPods/AirPods.png",
+      "id": 11
+    },
+    {
+      "nom": "MacBook",
+      "prix": "très cher",
+      "image": "https://www.apple.com/v/macbook-pro-13/i/images/overview/hero_endframe__bsza6x4fldiq_large_2x.jpg",
+      "avaible": true,
+      "id": 12
+    }
+  ]
+}
